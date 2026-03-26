@@ -1,0 +1,16 @@
+numpy==2.1.3
+pandas
+scipy
+python-dateutil
+PyMySQL
+SQLAlchemy
+requests~=2.32.3
+python-dotenv
+tqdm
+pydantic
+fastapi
+uvicorn
+httpx
+a2a-sdk[http-server]
+akshare
+tushare

@@ -1,0 +1,64 @@
+{
+  "export_time": "2026-02-07T20:19:12.975528",
+  "database": "fintools_backtest",
+  "total_tables": 14,
+  "total_records": 6674,
+  "tables": [
+    {
+      "name": "stock",
+      "model": "Stock"
+    },
+    {
+      "name": "stock_index",
+      "model": "StockIndex"
+    },
+    {
+      "name": "updating_stock",
+      "model": "UpdatingStock"
+    },
+    {
+      "name": "stocks_in_pool",
+      "model": "StocksInPool"
+    },
+    {
+      "name": "pool",
+      "model": "Pool"
+    },
+    {
+      "name": "pool_stock",
+      "model": "PoolStock"
+    },
+    {
+      "name": "rule",
+      "model": "Rule"
+    },
+    {
+      "name": "rule_pool",
+      "model": "RulePool"
+    },
+    {
+      "name": "stock_rule_earn",
+      "model": "StockRuleEarn"
+    },
+    {
+      "name": "pool_rule_earn",
+      "model": "PoolRuleEarn"
+    },
+    {
+      "name": "simulator",
+      "model": "Simulator"
+    },
+    {
+      "name": "simulator_trading",
+      "model": "SimTrading"
+    },
+    {
+      "name": "simulator_config",
+      "model": "SimulatorConfig"
+    },
+    {
+      "name": "agent_trading",
+      "model": "AgentTrading"
+    }
+  ]
+}

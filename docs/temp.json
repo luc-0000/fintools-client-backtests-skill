@@ -1,0 +1,61 @@
+
+{"service":"FinTools Public API",
+  "site_url":"https://fintools.local",
+  "public_base_path":"http://8.153.13.5:8000/api/v1/public",
+  "purpose":"Financial quantitative tooling for external agents.",
+  "intended_consumers":["OpenClaw","Other A2A and MCP compatible agents such as IronClaw"],
+  "capabilities":{
+    "data_access":{
+      "protocol":"MCP",
+      "description":"Discover financial and market data capabilities."},
+    "agent_execution":{
+      "protocol":"A2A",
+      "description":"Discover listed callable agents for execution workflows."},
+    "skill_extension":{"protocol":"skills",
+      "description":"Discover reusable skills that support quant workflows."},
+    "market_data":{"protocol":"HTTP",
+      "description":"Access public stock universe, candle series, and stock news data."}},
+  "auth_required":false,
+  "token_behavior":"No token is required. If FINTOOLS_ACCESS_TOKEN is provided to these public endpoints, it is ignored.",
+  "protected_runtime_note":"Other protected runtime endpoints require Authorization: Bearer <FINTOOLS_ACCESS_TOKEN>.",
+  "token_acquisition":{
+    "login_required":true,
+    "profile_url":"https://fintools.local/profile",
+    "description":"Sign in on FinTools, open the profile page, and copy the displayed access token."},
+  "public_data":["Listed agents across the market","Listed skills across the market","Single agent public card","Single skill public card","Author public homepage and listed assets","Author public thoughts","Public stock list","Public stock candles","Public stock news"],
+  "endpoints":[
+    {
+    "method":"GET",
+    "path":"/api/v1/public/info",
+    "url":"http://8.153.13.5:8000/api/v1/public/info",
+    "description":"Overview of public data available to external services."
+    }
+  ,{
+      "method":"GET",
+      "path":"/api/v1/public/agents",
+      "url":"http://8.153.13.5:8000/api/v1/public/agents",
+      "description":"Discover all listed public agents with filtering."
+    },
+    {
+      "method":"GET",
+      "path":"/api/v1/public/agents/{repo_id}",
+      "url":"http://8.153.13.5:8000/api/v1/public/agents/{repo_id}",
+      "description":"Get a single public agent card."
+    },{
+      "method":"GET",
+      "path":"/api/v1/public/skills",
+      "url":"http://8.153.13.5:8000/api/v1/public/skills",
+      "description":"Discover all listed public skills with filtering."
+    },{
+      "method":"GET",
+      "path":"/api/v1/public/skills/{repo_id}",
+      "url":"http://8.153.13.5:8000/api/v1/public/skills/{repo_id}",
+      "description":"Get a single public skill card."},
+    {"method":"GET","path":"/api/v1/public/skills/{repo_id}/download","url":"http://8.153.13.5:8000/api/v1/public/skills/{repo_id}/download","description":"Download a public skill archive through the FinTools proxy."},
+    {"method":"GET","path":"/api/v1/public/stocks","url":"http://8.153.13.5:8000/api/v1/public/stocks","description":"List public stock symbols with optional keyword filtering."},
+    {"method":"GET","path":"/api/v1/public/stocks/{ticker}/candles","url":"http://8.153.13.5:8000/api/v1/public/stocks/{ticker}/candles","description":"Get public candle data for a stock ticker."},
+    {"method":"GET","path":"/api/v1/public/stocks/{ticker}/news","url":"http://8.153.13.5:8000/api/v1/public/stocks/{ticker}/news","description":"Get public stock news for a ticker."},
+    {"method":"GET","path":"/api/v1/public/users/{author}","url":"http://8.153.13.5:8000/api/v1/public/users/{author}","description":"Get a public author profile bundle: homepage plus listed assets."},
+    {"method":"GET","path":"/api/v1/public/users/{author}/thoughts","url":"http://8.153.13.5:8000/api/v1/public/users/{author}/thoughts","description":"Get a public author's thoughts feed."}],
+  "recommended_flow":["Start with GET /api/v1/public/info.","Read the discovery endpoints and select public agents, public skills, public author profiles, or public stock data.","Use an access token only when calling protected non-public runtime endpoints.","Obtain the access token after sign-in from the profile page."],
+  "runtime_note":"This public API is discovery-only. If you later call an agent A2A runtime endpoint, that separate runtime call requires Authorization: Bearer <FINTOOLS_ACCESS_TOKEN>."}

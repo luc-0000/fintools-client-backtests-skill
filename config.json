@@ -1,0 +1,24 @@
+{
+  "database": {
+    "backend": "sqlite",
+    "common": {
+      "auto_bootstrap": true,
+      "seed_dir": "backtests/backend/backups/backup_20260207_201912/json_export"
+    },
+    "sqlite": {
+      "path": ".runtime/database/backtests.sqlite3"
+    },
+    "mysql": {
+      "host": "localhost",
+      "port": 3306,
+      "user": "root",
+      "password": "",
+      "database": "fintools_backtest",
+      "binds": {
+        "cn_stocks": "cn_stocks",
+        "cn_stocks_m": "cn_stocks_m",
+        "cn_stocks_in_pool": "cn_stocks_in_pool"
+      }
+    }
+  }
+}

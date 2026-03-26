@@ -1,0 +1,52 @@
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#pycharm and os
+.idea/
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*/*/*/.DS_Store
+
+# log files
+#/get_simulator/operations/sim_logs/*
+#get_simulator/operations/sim_logs/*.html
+#get_simulator/operations/sim_logs/*.*
+tools/cron_tasks/logs/*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+*/*/*.log
+#model_rules/*/train_open/*/*.
+model_rules/*/train/*/*.keras
+model_rules/*/train/*/*.csv
+model_rules/*/train/*/*.txt
+model_rules/*/train/*/*.pkl
+model_rules/LSTM/staled_models/*
+
+*/*/*/data_cache/*
+*/*/*/data_cache/*/*
+*/*/reports/*
+*/*/*/logs/*
+logs/*
+local_agents/tauric/dataflows/data_cache/*
+
+mlruns/*
+mlruns/*/*

@@ -1,0 +1,3272 @@
+[
+  {
+    "id": 1,
+    "rule_id": 3000,
+    "stock": "002607",
+    "trading_date": "2025-07-02T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-03T02:37:12"
+  },
+  {
+    "id": 2,
+    "rule_id": 3000,
+    "stock": "002607",
+    "trading_date": "2025-07-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-04T02:37:12"
+  },
+  {
+    "id": 3,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-07-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-15T02:37:12"
+  },
+  {
+    "id": 4,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-07-15T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-16T02:37:12"
+  },
+  {
+    "id": 5,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-07-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-22T02:37:12"
+  },
+  {
+    "id": 6,
+    "rule_id": 3000,
+    "stock": "601865",
+    "trading_date": "2025-07-02T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-03T02:37:12"
+  },
+  {
+    "id": 7,
+    "rule_id": 3000,
+    "stock": "002558",
+    "trading_date": "2025-07-08T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-09T02:37:12"
+  },
+  {
+    "id": 8,
+    "rule_id": 3000,
+    "stock": "601699",
+    "trading_date": "2025-08-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-08-05T02:37:12"
+  },
+  {
+    "id": 9,
+    "rule_id": 3000,
+    "stock": "002261",
+    "trading_date": "2025-08-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-08-26T02:37:12"
+  },
+  {
+    "id": 10,
+    "rule_id": 3000,
+    "stock": "000063",
+    "trading_date": "2025-08-20T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-08-22T02:37:12"
+  },
+  {
+    "id": 12,
+    "rule_id": 3000,
+    "stock": "002648",
+    "trading_date": "2025-07-28T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-28T02:37:12"
+  },
+  {
+    "id": 14,
+    "rule_id": 3000,
+    "stock": "601669",
+    "trading_date": "2025-07-28T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-28T02:37:12"
+  },
+  {
+    "id": 15,
+    "rule_id": 3000,
+    "stock": "002384",
+    "trading_date": "2025-07-18T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-07-19T02:37:12"
+  },
+  {
+    "id": 18,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-08-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-08-19T02:37:12"
+  },
+  {
+    "id": 19,
+    "rule_id": 3000,
+    "stock": "603259",
+    "trading_date": "2025-08-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-08-19T02:37:12"
+  },
+  {
+    "id": 20,
+    "rule_id": 3000,
+    "stock": "603993",
+    "trading_date": "2025-08-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-08-19T02:37:12"
+  },
+  {
+    "id": 21,
+    "rule_id": 3000,
+    "stock": "002939",
+    "trading_date": "2025-08-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-08-19T02:37:12",
+    "updated_at": "2025-08-19T02:37:12"
+  },
+  {
+    "id": 22,
+    "rule_id": 3000,
+    "stock": "002385",
+    "trading_date": "2025-08-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-01T11:37:27",
+    "updated_at": "2025-09-01T11:37:27"
+  },
+  {
+    "id": 23,
+    "rule_id": 3000,
+    "stock": "002607",
+    "trading_date": "2025-08-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-01T11:47:32",
+    "updated_at": "2025-09-01T11:47:32"
+  },
+  {
+    "id": 25,
+    "rule_id": 3000,
+    "stock": "002600",
+    "trading_date": "2025-09-01T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-02T11:48:26",
+    "updated_at": "2025-09-02T11:48:26"
+  },
+  {
+    "id": 26,
+    "rule_id": 3000,
+    "stock": "600219",
+    "trading_date": "2025-09-01T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-02T12:18:21",
+    "updated_at": "2025-09-02T12:18:21"
+  },
+  {
+    "id": 27,
+    "rule_id": 3000,
+    "stock": "000661",
+    "trading_date": "2025-09-01T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-02T15:55:02",
+    "updated_at": "2025-09-02T15:55:02"
+  },
+  {
+    "id": 28,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-09-01T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-02T16:19:24",
+    "updated_at": "2025-09-02T16:19:24"
+  },
+  {
+    "id": 29,
+    "rule_id": 3000,
+    "stock": "000100",
+    "trading_date": "2025-09-02T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-03T12:02:38",
+    "updated_at": "2025-09-03T12:02:38"
+  },
+  {
+    "id": 30,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-09-02T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-03T12:22:26",
+    "updated_at": "2025-09-03T12:22:26"
+  },
+  {
+    "id": 31,
+    "rule_id": 3000,
+    "stock": "600590",
+    "trading_date": "2025-08-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-03T12:22:26",
+    "updated_at": "2025-08-15T12:22:26"
+  },
+  {
+    "id": 32,
+    "rule_id": 3000,
+    "stock": "003022",
+    "trading_date": "2025-08-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-03T12:22:26",
+    "updated_at": "2025-08-28T12:22:26"
+  },
+  {
+    "id": 33,
+    "rule_id": 3000,
+    "stock": "601138",
+    "trading_date": "2025-08-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-03T12:22:26",
+    "updated_at": "2025-08-27T12:22:26"
+  },
+  {
+    "id": 34,
+    "rule_id": 3000,
+    "stock": "002384",
+    "trading_date": "2025-08-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-03T12:22:26",
+    "updated_at": "2025-08-22T12:22:26"
+  },
+  {
+    "id": 35,
+    "rule_id": 3000,
+    "stock": "600732",
+    "trading_date": "2025-07-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-03T12:22:26",
+    "updated_at": "2025-07-23T12:22:26"
+  },
+  {
+    "id": 36,
+    "rule_id": 3000,
+    "stock": "000617",
+    "trading_date": "2025-09-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-04T11:20:57",
+    "updated_at": "2025-09-04T11:20:57"
+  },
+  {
+    "id": 37,
+    "rule_id": 3000,
+    "stock": "002241",
+    "trading_date": "2025-09-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-04T11:28:42",
+    "updated_at": "2025-09-04T11:28:42"
+  },
+  {
+    "id": 38,
+    "rule_id": 3000,
+    "stock": "002385",
+    "trading_date": "2025-09-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-04T11:38:09",
+    "updated_at": "2025-09-04T11:38:09"
+  },
+  {
+    "id": 39,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-09-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-05T11:33:09",
+    "updated_at": "2025-09-05T11:33:09"
+  },
+  {
+    "id": 40,
+    "rule_id": 3000,
+    "stock": "600219",
+    "trading_date": "2025-09-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-06T01:14:47",
+    "updated_at": "2025-09-06T01:14:47"
+  },
+  {
+    "id": 41,
+    "rule_id": 3000,
+    "stock": "002080",
+    "trading_date": "2025-09-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-08T11:53:23",
+    "updated_at": "2025-09-08T11:53:23"
+  },
+  {
+    "id": 42,
+    "rule_id": 3000,
+    "stock": "002080",
+    "trading_date": "2025-09-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-08T12:03:34",
+    "updated_at": "2025-09-08T12:03:34"
+  },
+  {
+    "id": 43,
+    "rule_id": 3000,
+    "stock": "002241",
+    "trading_date": "2025-09-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-08T12:11:42",
+    "updated_at": "2025-09-08T12:11:42"
+  },
+  {
+    "id": 44,
+    "rule_id": 3000,
+    "stock": "002607",
+    "trading_date": "2025-09-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-08T12:20:26",
+    "updated_at": "2025-09-08T12:20:26"
+  },
+  {
+    "id": 45,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-09-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-08T12:45:48",
+    "updated_at": "2025-09-08T12:45:48"
+  },
+  {
+    "id": 46,
+    "rule_id": 3000,
+    "stock": "600745",
+    "trading_date": "2025-09-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-08T12:55:36",
+    "updated_at": "2025-09-08T12:55:36"
+  },
+  {
+    "id": 47,
+    "rule_id": 3001,
+    "stock": "002080",
+    "trading_date": "2025-09-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-08T13:13:04",
+    "updated_at": "2025-09-08T13:13:04"
+  },
+  {
+    "id": 48,
+    "rule_id": 3001,
+    "stock": "002709",
+    "trading_date": "2025-09-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-08T13:29:09",
+    "updated_at": "2025-09-08T13:29:09"
+  },
+  {
+    "id": 49,
+    "rule_id": 3001,
+    "stock": "002916",
+    "trading_date": "2025-09-08T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-09T13:19:47",
+    "updated_at": "2025-09-09T13:19:47"
+  },
+  {
+    "id": 50,
+    "rule_id": 3000,
+    "stock": "002463",
+    "trading_date": "2025-09-08T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-09T13:46:20",
+    "updated_at": "2025-09-09T13:46:20"
+  },
+  {
+    "id": 51,
+    "rule_id": 3000,
+    "stock": "002241",
+    "trading_date": "2025-09-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-11T11:52:11",
+    "updated_at": "2025-09-11T11:52:11"
+  },
+  {
+    "id": 52,
+    "rule_id": 3000,
+    "stock": "601689",
+    "trading_date": "2025-09-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-11T12:09:02",
+    "updated_at": "2025-09-11T12:09:02"
+  },
+  {
+    "id": 53,
+    "rule_id": 3001,
+    "stock": "002241",
+    "trading_date": "2025-09-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-11T12:28:24",
+    "updated_at": "2025-09-11T12:28:24"
+  },
+  {
+    "id": 54,
+    "rule_id": 3000,
+    "stock": "002508",
+    "trading_date": "2025-09-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-12T11:22:20",
+    "updated_at": "2025-09-12T11:22:20"
+  },
+  {
+    "id": 55,
+    "rule_id": 3000,
+    "stock": "600521",
+    "trading_date": "2025-09-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-12T11:32:15",
+    "updated_at": "2025-09-12T11:32:15"
+  },
+  {
+    "id": 56,
+    "rule_id": 3001,
+    "stock": "600521",
+    "trading_date": "2025-09-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-12T12:02:18",
+    "updated_at": "2025-09-12T12:02:18"
+  },
+  {
+    "id": 57,
+    "rule_id": 3000,
+    "stock": "600196",
+    "trading_date": "2025-09-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-15T10:46:49",
+    "updated_at": "2025-09-15T10:46:49"
+  },
+  {
+    "id": 58,
+    "rule_id": 3000,
+    "stock": "601689",
+    "trading_date": "2025-09-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-15T10:56:55",
+    "updated_at": "2025-09-15T10:56:55"
+  },
+  {
+    "id": 59,
+    "rule_id": 3000,
+    "stock": "603087",
+    "trading_date": "2025-09-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-15T11:08:41",
+    "updated_at": "2025-09-15T11:08:41"
+  },
+  {
+    "id": 60,
+    "rule_id": 3001,
+    "stock": "603087",
+    "trading_date": "2025-09-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-15T11:34:01",
+    "updated_at": "2025-09-15T11:34:01"
+  },
+  {
+    "id": 61,
+    "rule_id": 3000,
+    "stock": "002001",
+    "trading_date": "2025-09-15T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-16T11:38:45",
+    "updated_at": "2025-09-16T11:38:45"
+  },
+  {
+    "id": 64,
+    "rule_id": 3001,
+    "stock": "002409",
+    "trading_date": "2025-09-15T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-16T12:35:46",
+    "updated_at": "2025-09-16T12:35:46"
+  },
+  {
+    "id": 65,
+    "rule_id": 3001,
+    "stock": "601872",
+    "trading_date": "2025-09-15T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-16T12:42:47",
+    "updated_at": "2025-09-16T12:42:47"
+  },
+  {
+    "id": 66,
+    "rule_id": 3001,
+    "stock": "600196",
+    "trading_date": "2025-09-16T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-17T12:56:08",
+    "updated_at": "2025-09-17T12:56:08"
+  },
+  {
+    "id": 67,
+    "rule_id": 3001,
+    "stock": "601138",
+    "trading_date": "2025-09-16T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-17T13:05:29",
+    "updated_at": "2025-09-17T13:05:29"
+  },
+  {
+    "id": 68,
+    "rule_id": 3000,
+    "stock": "002463",
+    "trading_date": "2025-09-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-18T11:43:41",
+    "updated_at": "2025-09-18T11:43:41"
+  },
+  {
+    "id": 69,
+    "rule_id": 3000,
+    "stock": "002600",
+    "trading_date": "2025-09-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-18T11:51:29",
+    "updated_at": "2025-09-18T11:51:29"
+  },
+  {
+    "id": 70,
+    "rule_id": 3001,
+    "stock": "002463",
+    "trading_date": "2025-09-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-18T12:07:19",
+    "updated_at": "2025-09-18T12:07:19"
+  },
+  {
+    "id": 71,
+    "rule_id": 3000,
+    "stock": "002475",
+    "trading_date": "2025-09-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-22T11:55:14",
+    "updated_at": "2025-09-22T11:55:14"
+  },
+  {
+    "id": 72,
+    "rule_id": 3001,
+    "stock": "002475",
+    "trading_date": "2025-09-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-22T12:26:41",
+    "updated_at": "2025-09-22T12:26:41"
+  },
+  {
+    "id": 73,
+    "rule_id": 3001,
+    "stock": "603993",
+    "trading_date": "2025-09-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-22T12:34:07",
+    "updated_at": "2025-09-22T12:34:07"
+  },
+  {
+    "id": 74,
+    "rule_id": 3000,
+    "stock": "002555",
+    "trading_date": "2025-09-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-23T13:55:23",
+    "updated_at": "2025-09-23T13:55:23"
+  },
+  {
+    "id": 75,
+    "rule_id": 3001,
+    "stock": "002475",
+    "trading_date": "2025-09-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-23T14:21:22",
+    "updated_at": "2025-09-23T14:21:22"
+  },
+  {
+    "id": 76,
+    "rule_id": 3000,
+    "stock": "002555",
+    "trading_date": "2025-09-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-24T11:34:38",
+    "updated_at": "2025-09-24T11:34:38"
+  },
+  {
+    "id": 77,
+    "rule_id": 3000,
+    "stock": "603087",
+    "trading_date": "2025-09-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-24T11:48:10",
+    "updated_at": "2025-09-24T11:48:10"
+  },
+  {
+    "id": 78,
+    "rule_id": 3001,
+    "stock": "603087",
+    "trading_date": "2025-09-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-24T12:27:22",
+    "updated_at": "2025-09-24T12:27:22"
+  },
+  {
+    "id": 79,
+    "rule_id": 3000,
+    "stock": "000301",
+    "trading_date": "2025-09-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-25T11:29:10",
+    "updated_at": "2025-09-25T11:29:10"
+  },
+  {
+    "id": 80,
+    "rule_id": 3000,
+    "stock": "600362",
+    "trading_date": "2025-09-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-25T11:41:14",
+    "updated_at": "2025-09-25T11:41:14"
+  },
+  {
+    "id": 81,
+    "rule_id": 3000,
+    "stock": "600884",
+    "trading_date": "2025-09-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-25T11:48:25",
+    "updated_at": "2025-09-25T11:48:25"
+  },
+  {
+    "id": 82,
+    "rule_id": 3000,
+    "stock": "603993",
+    "trading_date": "2025-09-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-25T11:55:11",
+    "updated_at": "2025-09-25T11:55:11"
+  },
+  {
+    "id": 83,
+    "rule_id": 3001,
+    "stock": "603993",
+    "trading_date": "2025-09-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-25T12:39:05",
+    "updated_at": "2025-09-25T12:39:05"
+  },
+  {
+    "id": 84,
+    "rule_id": 3000,
+    "stock": "002202",
+    "trading_date": "2025-09-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-26T11:28:29",
+    "updated_at": "2025-09-26T11:28:29"
+  },
+  {
+    "id": 85,
+    "rule_id": 3000,
+    "stock": "002709",
+    "trading_date": "2025-09-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-26T11:36:13",
+    "updated_at": "2025-09-26T11:36:13"
+  },
+  {
+    "id": 86,
+    "rule_id": 3000,
+    "stock": "603659",
+    "trading_date": "2025-09-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-26T11:43:40",
+    "updated_at": "2025-09-26T11:43:40"
+  },
+  {
+    "id": 87,
+    "rule_id": 3002,
+    "stock": "002202",
+    "trading_date": "2025-09-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-27T01:50:01",
+    "updated_at": "2025-09-27T01:50:01"
+  },
+  {
+    "id": 88,
+    "rule_id": 3002,
+    "stock": "002709",
+    "trading_date": "2025-09-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-27T01:53:12",
+    "updated_at": "2025-09-27T01:53:12"
+  },
+  {
+    "id": 89,
+    "rule_id": 3002,
+    "stock": "603659",
+    "trading_date": "2025-09-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-27T01:58:45",
+    "updated_at": "2025-09-27T01:58:45"
+  },
+  {
+    "id": 90,
+    "rule_id": 3000,
+    "stock": "002050",
+    "trading_date": "2025-09-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-29T11:19:49",
+    "updated_at": "2025-09-29T11:19:49"
+  },
+  {
+    "id": 91,
+    "rule_id": 3000,
+    "stock": "002384",
+    "trading_date": "2025-09-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-29T11:25:57",
+    "updated_at": "2025-09-29T11:25:57"
+  },
+  {
+    "id": 92,
+    "rule_id": 3002,
+    "stock": "002050",
+    "trading_date": "2025-09-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-29T12:23:15",
+    "updated_at": "2025-09-29T12:23:15"
+  },
+  {
+    "id": 93,
+    "rule_id": 3002,
+    "stock": "002384",
+    "trading_date": "2025-09-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-29T12:27:39",
+    "updated_at": "2025-09-29T12:27:39"
+  },
+  {
+    "id": 94,
+    "rule_id": 3002,
+    "stock": "002463",
+    "trading_date": "2025-09-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-29T12:31:04",
+    "updated_at": "2025-09-29T12:31:04"
+  },
+  {
+    "id": 95,
+    "rule_id": 3002,
+    "stock": "002475",
+    "trading_date": "2025-09-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-29T12:33:59",
+    "updated_at": "2025-09-29T12:33:59"
+  },
+  {
+    "id": 96,
+    "rule_id": 3002,
+    "stock": "600183",
+    "trading_date": "2025-09-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-29T12:37:11",
+    "updated_at": "2025-09-29T12:37:11"
+  },
+  {
+    "id": 97,
+    "rule_id": 3000,
+    "stock": "600346",
+    "trading_date": "2025-09-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-30T11:53:37",
+    "updated_at": "2025-09-30T11:53:37"
+  },
+  {
+    "id": 98,
+    "rule_id": 3000,
+    "stock": "601598",
+    "trading_date": "2025-09-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-30T11:59:05",
+    "updated_at": "2025-09-30T11:59:05"
+  },
+  {
+    "id": 99,
+    "rule_id": 3001,
+    "stock": "601598",
+    "trading_date": "2025-09-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-30T12:42:44",
+    "updated_at": "2025-09-30T12:42:44"
+  },
+  {
+    "id": 100,
+    "rule_id": 3002,
+    "stock": "002353",
+    "trading_date": "2025-09-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-30T12:44:53",
+    "updated_at": "2025-09-30T12:44:53"
+  },
+  {
+    "id": 101,
+    "rule_id": 3002,
+    "stock": "600346",
+    "trading_date": "2025-09-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-09-30T12:54:39",
+    "updated_at": "2025-09-30T12:54:39"
+  },
+  {
+    "id": 104,
+    "rule_id": 3000,
+    "stock": "002430",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T12:26:21",
+    "updated_at": "2025-10-09T12:26:21"
+  },
+  {
+    "id": 105,
+    "rule_id": 3000,
+    "stock": "002463",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T12:31:51",
+    "updated_at": "2025-10-09T12:31:51"
+  },
+  {
+    "id": 106,
+    "rule_id": 3000,
+    "stock": "600884",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T12:43:13",
+    "updated_at": "2025-10-09T12:43:13"
+  },
+  {
+    "id": 107,
+    "rule_id": 3000,
+    "stock": "601689",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T12:55:06",
+    "updated_at": "2025-10-09T12:55:06"
+  },
+  {
+    "id": 108,
+    "rule_id": 3002,
+    "stock": "002156",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T14:02:12",
+    "updated_at": "2025-10-09T14:02:12"
+  },
+  {
+    "id": 109,
+    "rule_id": 3002,
+    "stock": "002340",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T14:04:56",
+    "updated_at": "2025-10-09T14:04:56"
+  },
+  {
+    "id": 110,
+    "rule_id": 3002,
+    "stock": "600489",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T14:14:18",
+    "updated_at": "2025-10-09T14:14:18"
+  },
+  {
+    "id": 111,
+    "rule_id": 3002,
+    "stock": "600884",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T14:17:27",
+    "updated_at": "2025-10-09T14:17:27"
+  },
+  {
+    "id": 112,
+    "rule_id": 3002,
+    "stock": "601138",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T14:20:44",
+    "updated_at": "2025-10-09T14:20:44"
+  },
+  {
+    "id": 113,
+    "rule_id": 3002,
+    "stock": "601689",
+    "trading_date": "2025-09-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-09T14:27:56",
+    "updated_at": "2025-10-09T14:27:56"
+  },
+  {
+    "id": 114,
+    "rule_id": 3000,
+    "stock": "002558",
+    "trading_date": "2025-10-09T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-10T11:34:34",
+    "updated_at": "2025-10-10T11:34:34"
+  },
+  {
+    "id": 115,
+    "rule_id": 3000,
+    "stock": "600183",
+    "trading_date": "2025-10-09T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-10T11:40:45",
+    "updated_at": "2025-10-10T11:40:45"
+  },
+  {
+    "id": 116,
+    "rule_id": 3000,
+    "stock": "600362",
+    "trading_date": "2025-10-09T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-10T11:46:37",
+    "updated_at": "2025-10-10T11:46:37"
+  },
+  {
+    "id": 117,
+    "rule_id": 3002,
+    "stock": "600183",
+    "trading_date": "2025-10-09T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-10T12:53:18",
+    "updated_at": "2025-10-10T12:53:18"
+  },
+  {
+    "id": 118,
+    "rule_id": 3002,
+    "stock": "601138",
+    "trading_date": "2025-10-09T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-10T12:57:53",
+    "updated_at": "2025-10-10T12:57:53"
+  },
+  {
+    "id": 119,
+    "rule_id": 3000,
+    "stock": "002555",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T10:59:20",
+    "updated_at": "2025-10-13T10:59:20"
+  },
+  {
+    "id": 120,
+    "rule_id": 3000,
+    "stock": "002558",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T11:05:34",
+    "updated_at": "2025-10-13T11:05:34"
+  },
+  {
+    "id": 121,
+    "rule_id": 3000,
+    "stock": "002709",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T11:12:17",
+    "updated_at": "2025-10-13T11:12:17"
+  },
+  {
+    "id": 122,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T11:25:06",
+    "updated_at": "2025-10-13T11:25:06"
+  },
+  {
+    "id": 123,
+    "rule_id": 3000,
+    "stock": "603087",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T11:31:23",
+    "updated_at": "2025-10-13T11:31:23"
+  },
+  {
+    "id": 124,
+    "rule_id": 3000,
+    "stock": "603659",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T11:38:09",
+    "updated_at": "2025-10-13T11:38:09"
+  },
+  {
+    "id": 125,
+    "rule_id": 3001,
+    "stock": "600010",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T12:38:37",
+    "updated_at": "2025-10-13T12:38:37"
+  },
+  {
+    "id": 126,
+    "rule_id": 3002,
+    "stock": "002475",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T13:03:32",
+    "updated_at": "2025-10-13T13:03:32"
+  },
+  {
+    "id": 127,
+    "rule_id": 3002,
+    "stock": "600010",
+    "trading_date": "2025-10-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-13T13:15:21",
+    "updated_at": "2025-10-13T13:15:21"
+  },
+  {
+    "id": 128,
+    "rule_id": 3000,
+    "stock": "000776",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T10:50:58",
+    "updated_at": "2025-10-14T10:50:58"
+  },
+  {
+    "id": 129,
+    "rule_id": 3000,
+    "stock": "002050",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T10:58:14",
+    "updated_at": "2025-10-14T10:58:14"
+  },
+  {
+    "id": 130,
+    "rule_id": 3000,
+    "stock": "002430",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T11:18:28",
+    "updated_at": "2025-10-14T11:18:28"
+  },
+  {
+    "id": 131,
+    "rule_id": 3000,
+    "stock": "002600",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T11:25:10",
+    "updated_at": "2025-10-14T11:25:10"
+  },
+  {
+    "id": 132,
+    "rule_id": 3000,
+    "stock": "600026",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T11:31:57",
+    "updated_at": "2025-10-14T11:31:57"
+  },
+  {
+    "id": 133,
+    "rule_id": 3000,
+    "stock": "600584",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T11:38:14",
+    "updated_at": "2025-10-14T11:38:14"
+  },
+  {
+    "id": 134,
+    "rule_id": 3000,
+    "stock": "603993",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T11:44:28",
+    "updated_at": "2025-10-14T11:44:28"
+  },
+  {
+    "id": 135,
+    "rule_id": 3002,
+    "stock": "002384",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T13:06:02",
+    "updated_at": "2025-10-14T13:06:02"
+  },
+  {
+    "id": 136,
+    "rule_id": 3002,
+    "stock": "600026",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T13:13:48",
+    "updated_at": "2025-10-14T13:13:48"
+  },
+  {
+    "id": 137,
+    "rule_id": 3002,
+    "stock": "600584",
+    "trading_date": "2025-10-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-14T13:16:34",
+    "updated_at": "2025-10-14T13:16:34"
+  },
+  {
+    "id": 138,
+    "rule_id": 3000,
+    "stock": "002475",
+    "trading_date": "2025-10-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-15T10:45:30",
+    "updated_at": "2025-10-15T10:45:30"
+  },
+  {
+    "id": 139,
+    "rule_id": 3000,
+    "stock": "002709",
+    "trading_date": "2025-10-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-16T09:58:23",
+    "updated_at": "2025-10-16T09:58:23"
+  },
+  {
+    "id": 140,
+    "rule_id": 3000,
+    "stock": "300014",
+    "trading_date": "2025-10-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-16T10:11:42",
+    "updated_at": "2025-10-16T10:11:42"
+  },
+  {
+    "id": 141,
+    "rule_id": 3000,
+    "stock": "002074",
+    "trading_date": "2025-10-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-17T09:46:14",
+    "updated_at": "2025-10-17T09:46:14"
+  },
+  {
+    "id": 142,
+    "rule_id": 3002,
+    "stock": "002074",
+    "trading_date": "2025-10-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-17T10:56:42",
+    "updated_at": "2025-10-17T10:56:42"
+  },
+  {
+    "id": 143,
+    "rule_id": 3002,
+    "stock": "002475",
+    "trading_date": "2025-10-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-17T11:01:46",
+    "updated_at": "2025-10-17T11:01:46"
+  },
+  {
+    "id": 144,
+    "rule_id": 3002,
+    "stock": "002709",
+    "trading_date": "2025-10-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-17T11:04:33",
+    "updated_at": "2025-10-17T11:04:33"
+  },
+  {
+    "id": 145,
+    "rule_id": 3002,
+    "stock": "300014",
+    "trading_date": "2025-10-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-17T11:09:42",
+    "updated_at": "2025-10-17T11:09:42"
+  },
+  {
+    "id": 146,
+    "rule_id": 3000,
+    "stock": "002531",
+    "trading_date": "2025-10-20T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-21T11:16:48",
+    "updated_at": "2025-10-21T11:16:48"
+  },
+  {
+    "id": 147,
+    "rule_id": 3000,
+    "stock": "002600",
+    "trading_date": "2025-10-20T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-21T11:23:56",
+    "updated_at": "2025-10-21T11:23:56"
+  },
+  {
+    "id": 148,
+    "rule_id": 3000,
+    "stock": "002738",
+    "trading_date": "2025-10-20T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-21T11:30:13",
+    "updated_at": "2025-10-21T11:30:13"
+  },
+  {
+    "id": 149,
+    "rule_id": 3000,
+    "stock": "002920",
+    "trading_date": "2025-10-20T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-21T11:35:57",
+    "updated_at": "2025-10-21T11:35:57"
+  },
+  {
+    "id": 150,
+    "rule_id": 3000,
+    "stock": "600089",
+    "trading_date": "2025-10-20T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-21T11:41:41",
+    "updated_at": "2025-10-21T11:41:41"
+  },
+  {
+    "id": 151,
+    "rule_id": 3000,
+    "stock": "605117",
+    "trading_date": "2025-10-20T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-21T11:47:34",
+    "updated_at": "2025-10-21T11:47:34"
+  },
+  {
+    "id": 152,
+    "rule_id": 3000,
+    "stock": "002384",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T10:55:00",
+    "updated_at": "2025-10-22T10:55:00"
+  },
+  {
+    "id": 153,
+    "rule_id": 3000,
+    "stock": "002463",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T11:01:24",
+    "updated_at": "2025-10-22T11:01:24"
+  },
+  {
+    "id": 154,
+    "rule_id": 3000,
+    "stock": "002938",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T11:07:33",
+    "updated_at": "2025-10-22T11:07:33"
+  },
+  {
+    "id": 155,
+    "rule_id": 3000,
+    "stock": "600436",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T11:13:06",
+    "updated_at": "2025-10-22T11:13:06"
+  },
+  {
+    "id": 156,
+    "rule_id": 3000,
+    "stock": "600745",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T11:18:54",
+    "updated_at": "2025-10-22T11:18:54"
+  },
+  {
+    "id": 157,
+    "rule_id": 3000,
+    "stock": "601899",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T11:24:30",
+    "updated_at": "2025-10-22T11:24:30"
+  },
+  {
+    "id": 158,
+    "rule_id": 3002,
+    "stock": "002384",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T12:11:19",
+    "updated_at": "2025-10-22T12:11:19"
+  },
+  {
+    "id": 159,
+    "rule_id": 3002,
+    "stock": "002463",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T12:14:12",
+    "updated_at": "2025-10-22T12:14:12"
+  },
+  {
+    "id": 160,
+    "rule_id": 3002,
+    "stock": "002938",
+    "trading_date": "2025-10-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-22T12:16:44",
+    "updated_at": "2025-10-22T12:16:44"
+  },
+  {
+    "id": 161,
+    "rule_id": 3000,
+    "stock": "002050",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T11:18:08",
+    "updated_at": "2025-10-23T11:18:08"
+  },
+  {
+    "id": 162,
+    "rule_id": 3000,
+    "stock": "002600",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T11:29:51",
+    "updated_at": "2025-10-23T11:29:51"
+  },
+  {
+    "id": 163,
+    "rule_id": 3000,
+    "stock": "601689",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T11:35:48",
+    "updated_at": "2025-10-23T11:35:48"
+  },
+  {
+    "id": 164,
+    "rule_id": 3000,
+    "stock": "603290",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T11:41:43",
+    "updated_at": "2025-10-23T11:41:43"
+  },
+  {
+    "id": 165,
+    "rule_id": 3001,
+    "stock": "002050",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T11:55:27",
+    "updated_at": "2025-10-23T11:55:27"
+  },
+  {
+    "id": 166,
+    "rule_id": 3002,
+    "stock": "001389",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T12:29:19",
+    "updated_at": "2025-10-23T12:29:19"
+  },
+  {
+    "id": 167,
+    "rule_id": 3002,
+    "stock": "002384",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T12:34:13",
+    "updated_at": "2025-10-23T12:34:13"
+  },
+  {
+    "id": 168,
+    "rule_id": 3002,
+    "stock": "002600",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T12:36:23",
+    "updated_at": "2025-10-23T12:36:23"
+  },
+  {
+    "id": 169,
+    "rule_id": 3002,
+    "stock": "601689",
+    "trading_date": "2025-10-22T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-23T12:39:26",
+    "updated_at": "2025-10-23T12:39:26"
+  },
+  {
+    "id": 170,
+    "rule_id": 3000,
+    "stock": "002311",
+    "trading_date": "2025-10-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-24T11:05:04",
+    "updated_at": "2025-10-24T11:05:04"
+  },
+  {
+    "id": 171,
+    "rule_id": 3000,
+    "stock": "601288",
+    "trading_date": "2025-10-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-24T11:22:26",
+    "updated_at": "2025-10-24T11:22:26"
+  },
+  {
+    "id": 172,
+    "rule_id": 3000,
+    "stock": "603799",
+    "trading_date": "2025-10-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-24T11:28:26",
+    "updated_at": "2025-10-24T11:28:26"
+  },
+  {
+    "id": 173,
+    "rule_id": 3002,
+    "stock": "002311",
+    "trading_date": "2025-10-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-24T12:06:46",
+    "updated_at": "2025-10-24T12:06:46"
+  },
+  {
+    "id": 174,
+    "rule_id": 3002,
+    "stock": "603799",
+    "trading_date": "2025-10-23T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-24T12:16:15",
+    "updated_at": "2025-10-24T12:16:15"
+  },
+  {
+    "id": 175,
+    "rule_id": 3001,
+    "stock": "603259",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T11:11:33",
+    "updated_at": "2025-10-27T11:11:33"
+  },
+  {
+    "id": 176,
+    "rule_id": 3000,
+    "stock": "000733",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T11:25:00",
+    "updated_at": "2025-10-27T11:25:00"
+  },
+  {
+    "id": 177,
+    "rule_id": 3000,
+    "stock": "002384",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T11:30:27",
+    "updated_at": "2025-10-27T11:30:27"
+  },
+  {
+    "id": 178,
+    "rule_id": 3000,
+    "stock": "002409",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T11:35:56",
+    "updated_at": "2025-10-27T11:35:56"
+  },
+  {
+    "id": 179,
+    "rule_id": 3000,
+    "stock": "600489",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T11:41:48",
+    "updated_at": "2025-10-27T11:41:48"
+  },
+  {
+    "id": 180,
+    "rule_id": 3000,
+    "stock": "603259",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T11:47:59",
+    "updated_at": "2025-10-27T11:47:59"
+  },
+  {
+    "id": 181,
+    "rule_id": 3000,
+    "stock": "603993",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T11:54:17",
+    "updated_at": "2025-10-27T11:54:17"
+  },
+  {
+    "id": 182,
+    "rule_id": 3002,
+    "stock": "002384",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T11:59:11",
+    "updated_at": "2025-10-27T11:59:11"
+  },
+  {
+    "id": 183,
+    "rule_id": 3002,
+    "stock": "600489",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T12:04:08",
+    "updated_at": "2025-10-27T12:04:08"
+  },
+  {
+    "id": 184,
+    "rule_id": 3002,
+    "stock": "603259",
+    "trading_date": "2025-10-24T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-27T12:07:21",
+    "updated_at": "2025-10-27T12:07:21"
+  },
+  {
+    "id": 185,
+    "rule_id": 3001,
+    "stock": "601899",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:06:28",
+    "updated_at": "2025-10-28T11:06:28"
+  },
+  {
+    "id": 186,
+    "rule_id": 3000,
+    "stock": "000581",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:22:59",
+    "updated_at": "2025-10-28T11:22:59"
+  },
+  {
+    "id": 187,
+    "rule_id": 3000,
+    "stock": "002384",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:29:07",
+    "updated_at": "2025-10-28T11:29:07"
+  },
+  {
+    "id": 188,
+    "rule_id": 3000,
+    "stock": "600489",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:35:23",
+    "updated_at": "2025-10-28T11:35:23"
+  },
+  {
+    "id": 189,
+    "rule_id": 3000,
+    "stock": "601899",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:41:17",
+    "updated_at": "2025-10-28T11:41:17"
+  },
+  {
+    "id": 190,
+    "rule_id": 3000,
+    "stock": "605117",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:47:06",
+    "updated_at": "2025-10-28T11:47:06"
+  },
+  {
+    "id": 191,
+    "rule_id": 3002,
+    "stock": "000581",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:49:27",
+    "updated_at": "2025-10-28T11:49:27"
+  },
+  {
+    "id": 192,
+    "rule_id": 3002,
+    "stock": "002384",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:51:39",
+    "updated_at": "2025-10-28T11:51:39"
+  },
+  {
+    "id": 193,
+    "rule_id": 3002,
+    "stock": "600489",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:53:52",
+    "updated_at": "2025-10-28T11:53:52"
+  },
+  {
+    "id": 194,
+    "rule_id": 3002,
+    "stock": "601899",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:55:52",
+    "updated_at": "2025-10-28T11:55:52"
+  },
+  {
+    "id": 195,
+    "rule_id": 3002,
+    "stock": "605117",
+    "trading_date": "2025-10-27T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-28T11:58:14",
+    "updated_at": "2025-10-28T11:58:14"
+  },
+  {
+    "id": 196,
+    "rule_id": 3001,
+    "stock": "002555",
+    "trading_date": "2025-10-28T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-29T11:06:52",
+    "updated_at": "2025-10-29T11:06:52"
+  },
+  {
+    "id": 197,
+    "rule_id": 3000,
+    "stock": "002555",
+    "trading_date": "2025-10-28T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-29T11:22:13",
+    "updated_at": "2025-10-29T11:22:13"
+  },
+  {
+    "id": 198,
+    "rule_id": 3002,
+    "stock": "002555",
+    "trading_date": "2025-10-28T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-29T11:31:13",
+    "updated_at": "2025-10-29T11:31:13"
+  },
+  {
+    "id": 199,
+    "rule_id": 3001,
+    "stock": "600100",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T11:25:27",
+    "updated_at": "2025-10-30T11:25:27"
+  },
+  {
+    "id": 200,
+    "rule_id": 3000,
+    "stock": "002430",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T11:39:56",
+    "updated_at": "2025-10-30T11:39:56"
+  },
+  {
+    "id": 201,
+    "rule_id": 3000,
+    "stock": "600026",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T11:45:58",
+    "updated_at": "2025-10-30T11:45:58"
+  },
+  {
+    "id": 202,
+    "rule_id": 3000,
+    "stock": "600100",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T11:51:30",
+    "updated_at": "2025-10-30T11:51:30"
+  },
+  {
+    "id": 203,
+    "rule_id": 3000,
+    "stock": "601872",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T11:57:01",
+    "updated_at": "2025-10-30T11:57:01"
+  },
+  {
+    "id": 204,
+    "rule_id": 3002,
+    "stock": "002430",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T12:00:02",
+    "updated_at": "2025-10-30T12:00:02"
+  },
+  {
+    "id": 205,
+    "rule_id": 3002,
+    "stock": "600026",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T12:02:16",
+    "updated_at": "2025-10-30T12:02:16"
+  },
+  {
+    "id": 206,
+    "rule_id": 3002,
+    "stock": "600100",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T12:04:26",
+    "updated_at": "2025-10-30T12:04:26"
+  },
+  {
+    "id": 207,
+    "rule_id": 3002,
+    "stock": "601872",
+    "trading_date": "2025-10-29T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-30T12:07:01",
+    "updated_at": "2025-10-30T12:07:01"
+  },
+  {
+    "id": 208,
+    "rule_id": 3001,
+    "stock": "000807",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T11:06:23",
+    "updated_at": "2025-10-31T11:06:23"
+  },
+  {
+    "id": 209,
+    "rule_id": 3001,
+    "stock": "002558",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T11:23:25",
+    "updated_at": "2025-10-31T11:23:25"
+  },
+  {
+    "id": 210,
+    "rule_id": 3000,
+    "stock": "000807",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T11:52:52",
+    "updated_at": "2025-10-31T11:52:52"
+  },
+  {
+    "id": 211,
+    "rule_id": 3000,
+    "stock": "002008",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T11:59:06",
+    "updated_at": "2025-10-31T11:59:06"
+  },
+  {
+    "id": 212,
+    "rule_id": 3000,
+    "stock": "002558",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T12:05:06",
+    "updated_at": "2025-10-31T12:05:06"
+  },
+  {
+    "id": 213,
+    "rule_id": 3000,
+    "stock": "600489",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T12:17:24",
+    "updated_at": "2025-10-31T12:17:24"
+  },
+  {
+    "id": 214,
+    "rule_id": 3000,
+    "stock": "600515",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T12:23:35",
+    "updated_at": "2025-10-31T12:23:35"
+  },
+  {
+    "id": 215,
+    "rule_id": 3002,
+    "stock": "000807",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T12:26:16",
+    "updated_at": "2025-10-31T12:26:16"
+  },
+  {
+    "id": 216,
+    "rule_id": 3002,
+    "stock": "002600",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T12:32:27",
+    "updated_at": "2025-10-31T12:32:27"
+  },
+  {
+    "id": 217,
+    "rule_id": 3002,
+    "stock": "600489",
+    "trading_date": "2025-10-30T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-10-31T12:34:53",
+    "updated_at": "2025-10-31T12:34:53"
+  },
+  {
+    "id": 218,
+    "rule_id": 3000,
+    "stock": "002008",
+    "trading_date": "2025-10-31T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-03T12:15:41",
+    "updated_at": "2025-11-03T12:15:41"
+  },
+  {
+    "id": 219,
+    "rule_id": 3000,
+    "stock": "002475",
+    "trading_date": "2025-10-31T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-03T12:21:13",
+    "updated_at": "2025-11-03T12:21:13"
+  },
+  {
+    "id": 220,
+    "rule_id": 3000,
+    "stock": "002555",
+    "trading_date": "2025-10-31T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-03T12:27:22",
+    "updated_at": "2025-11-03T12:27:22"
+  },
+  {
+    "id": 221,
+    "rule_id": 3000,
+    "stock": "002600",
+    "trading_date": "2025-10-31T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-03T12:33:08",
+    "updated_at": "2025-11-03T12:33:08"
+  },
+  {
+    "id": 222,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-10-31T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-03T12:44:37",
+    "updated_at": "2025-11-03T12:44:37"
+  },
+  {
+    "id": 223,
+    "rule_id": 3001,
+    "stock": "002966",
+    "trading_date": "2025-11-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-04T11:37:56",
+    "updated_at": "2025-11-04T11:37:56"
+  },
+  {
+    "id": 224,
+    "rule_id": 3000,
+    "stock": "000063",
+    "trading_date": "2025-11-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-04T12:08:07",
+    "updated_at": "2025-11-04T12:08:07"
+  },
+  {
+    "id": 225,
+    "rule_id": 3000,
+    "stock": "002966",
+    "trading_date": "2025-11-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-04T12:21:47",
+    "updated_at": "2025-11-04T12:21:47"
+  },
+  {
+    "id": 226,
+    "rule_id": 3000,
+    "stock": "600362",
+    "trading_date": "2025-11-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-04T12:32:59",
+    "updated_at": "2025-11-04T12:32:59"
+  },
+  {
+    "id": 227,
+    "rule_id": 3000,
+    "stock": "601689",
+    "trading_date": "2025-11-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-04T12:38:44",
+    "updated_at": "2025-11-04T12:38:44"
+  },
+  {
+    "id": 228,
+    "rule_id": 3002,
+    "stock": "002966",
+    "trading_date": "2025-11-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-04T12:45:10",
+    "updated_at": "2025-11-04T12:45:10"
+  },
+  {
+    "id": 229,
+    "rule_id": 3002,
+    "stock": "600183",
+    "trading_date": "2025-11-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-04T12:47:34",
+    "updated_at": "2025-11-04T12:47:34"
+  },
+  {
+    "id": 230,
+    "rule_id": 3002,
+    "stock": "600362",
+    "trading_date": "2025-11-03T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-04T12:49:42",
+    "updated_at": "2025-11-04T12:49:42"
+  },
+  {
+    "id": 231,
+    "rule_id": 3000,
+    "stock": "002080",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T11:55:53",
+    "updated_at": "2025-11-05T11:55:53"
+  },
+  {
+    "id": 232,
+    "rule_id": 3000,
+    "stock": "002384",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T12:02:18",
+    "updated_at": "2025-11-05T12:02:18"
+  },
+  {
+    "id": 233,
+    "rule_id": 3000,
+    "stock": "002463",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T12:08:26",
+    "updated_at": "2025-11-05T12:08:26"
+  },
+  {
+    "id": 234,
+    "rule_id": 3000,
+    "stock": "002938",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T12:13:56",
+    "updated_at": "2025-11-05T12:13:56"
+  },
+  {
+    "id": 235,
+    "rule_id": 3000,
+    "stock": "600026",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T12:19:49",
+    "updated_at": "2025-11-05T12:19:49"
+  },
+  {
+    "id": 236,
+    "rule_id": 3000,
+    "stock": "601872",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T12:26:14",
+    "updated_at": "2025-11-05T12:26:14"
+  },
+  {
+    "id": 237,
+    "rule_id": 3002,
+    "stock": "002080",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T12:28:49",
+    "updated_at": "2025-11-05T12:28:49"
+  },
+  {
+    "id": 238,
+    "rule_id": 3002,
+    "stock": "002384",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T12:31:05",
+    "updated_at": "2025-11-05T12:31:05"
+  },
+  {
+    "id": 239,
+    "rule_id": 3002,
+    "stock": "002463",
+    "trading_date": "2025-11-04T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-05T12:33:30",
+    "updated_at": "2025-11-05T12:33:30"
+  },
+  {
+    "id": 240,
+    "rule_id": 3001,
+    "stock": "002244",
+    "trading_date": "2025-11-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-06T11:26:13",
+    "updated_at": "2025-11-06T11:26:13"
+  },
+  {
+    "id": 241,
+    "rule_id": 3000,
+    "stock": "000338",
+    "trading_date": "2025-11-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-06T11:56:28",
+    "updated_at": "2025-11-06T11:56:28"
+  },
+  {
+    "id": 242,
+    "rule_id": 3000,
+    "stock": "002244",
+    "trading_date": "2025-11-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-06T12:02:04",
+    "updated_at": "2025-11-06T12:02:04"
+  },
+  {
+    "id": 243,
+    "rule_id": 3000,
+    "stock": "002409",
+    "trading_date": "2025-11-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-06T12:07:57",
+    "updated_at": "2025-11-06T12:07:57"
+  },
+  {
+    "id": 244,
+    "rule_id": 3000,
+    "stock": "002600",
+    "trading_date": "2025-11-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-06T12:13:36",
+    "updated_at": "2025-11-06T12:13:36"
+  },
+  {
+    "id": 245,
+    "rule_id": 3000,
+    "stock": "600089",
+    "trading_date": "2025-11-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-06T12:20:09",
+    "updated_at": "2025-11-06T12:20:09"
+  },
+  {
+    "id": 246,
+    "rule_id": 3002,
+    "stock": "000338",
+    "trading_date": "2025-11-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-06T12:22:42",
+    "updated_at": "2025-11-06T12:22:42"
+  },
+  {
+    "id": 247,
+    "rule_id": 3002,
+    "stock": "600089",
+    "trading_date": "2025-11-05T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-06T12:31:51",
+    "updated_at": "2025-11-06T12:31:51"
+  },
+  {
+    "id": 248,
+    "rule_id": 3000,
+    "stock": "000807",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T12:21:32",
+    "updated_at": "2025-11-07T12:21:32"
+  },
+  {
+    "id": 249,
+    "rule_id": 3000,
+    "stock": "002128",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T12:27:03",
+    "updated_at": "2025-11-07T12:27:03"
+  },
+  {
+    "id": 250,
+    "rule_id": 3000,
+    "stock": "600515",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T12:38:59",
+    "updated_at": "2025-11-07T12:38:59"
+  },
+  {
+    "id": 251,
+    "rule_id": 3000,
+    "stock": "601689",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T12:50:56",
+    "updated_at": "2025-11-07T12:50:56"
+  },
+  {
+    "id": 252,
+    "rule_id": 3002,
+    "stock": "000807",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T12:53:33",
+    "updated_at": "2025-11-07T12:53:33"
+  },
+  {
+    "id": 253,
+    "rule_id": 3002,
+    "stock": "002128",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T12:55:54",
+    "updated_at": "2025-11-07T12:55:54"
+  },
+  {
+    "id": 254,
+    "rule_id": 3002,
+    "stock": "600515",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T13:00:41",
+    "updated_at": "2025-11-07T13:00:41"
+  },
+  {
+    "id": 255,
+    "rule_id": 3002,
+    "stock": "601138",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T13:03:06",
+    "updated_at": "2025-11-07T13:03:06"
+  },
+  {
+    "id": 256,
+    "rule_id": 3002,
+    "stock": "601689",
+    "trading_date": "2025-11-06T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-07T13:05:45",
+    "updated_at": "2025-11-07T13:05:45"
+  },
+  {
+    "id": 257,
+    "rule_id": 3000,
+    "stock": "002050",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T11:23:29",
+    "updated_at": "2025-11-10T11:23:29"
+  },
+  {
+    "id": 258,
+    "rule_id": 3000,
+    "stock": "002409",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T11:28:56",
+    "updated_at": "2025-11-10T11:28:56"
+  },
+  {
+    "id": 259,
+    "rule_id": 3000,
+    "stock": "600515",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T11:40:56",
+    "updated_at": "2025-11-10T11:40:56"
+  },
+  {
+    "id": 260,
+    "rule_id": 3000,
+    "stock": "603659",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T11:53:45",
+    "updated_at": "2025-11-10T11:53:45"
+  },
+  {
+    "id": 261,
+    "rule_id": 3002,
+    "stock": "002050",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T11:56:33",
+    "updated_at": "2025-11-10T11:56:33"
+  },
+  {
+    "id": 262,
+    "rule_id": 3002,
+    "stock": "002409",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T11:58:59",
+    "updated_at": "2025-11-10T11:58:59"
+  },
+  {
+    "id": 263,
+    "rule_id": 3002,
+    "stock": "002738",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T12:01:22",
+    "updated_at": "2025-11-10T12:01:22"
+  },
+  {
+    "id": 264,
+    "rule_id": 3002,
+    "stock": "600515",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T12:04:09",
+    "updated_at": "2025-11-10T12:04:09"
+  },
+  {
+    "id": 265,
+    "rule_id": 3002,
+    "stock": "600875",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T12:06:42",
+    "updated_at": "2025-11-10T12:06:42"
+  },
+  {
+    "id": 266,
+    "rule_id": 3002,
+    "stock": "603659",
+    "trading_date": "2025-11-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-10T12:09:18",
+    "updated_at": "2025-11-10T12:09:18"
+  },
+  {
+    "id": 267,
+    "rule_id": 3000,
+    "stock": "002050",
+    "trading_date": "2025-11-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-11T11:14:47",
+    "updated_at": "2025-11-11T11:14:47"
+  },
+  {
+    "id": 268,
+    "rule_id": 3000,
+    "stock": "002241",
+    "trading_date": "2025-11-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-11T11:27:03",
+    "updated_at": "2025-11-11T11:27:03"
+  },
+  {
+    "id": 269,
+    "rule_id": 3000,
+    "stock": "600010",
+    "trading_date": "2025-11-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-11T11:38:25",
+    "updated_at": "2025-11-11T11:38:25"
+  },
+  {
+    "id": 270,
+    "rule_id": 3000,
+    "stock": "603993",
+    "trading_date": "2025-11-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-11T11:44:10",
+    "updated_at": "2025-11-11T11:44:10"
+  },
+  {
+    "id": 271,
+    "rule_id": 3002,
+    "stock": "002240",
+    "trading_date": "2025-11-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-11T11:49:50",
+    "updated_at": "2025-11-11T11:49:50"
+  },
+  {
+    "id": 272,
+    "rule_id": 3002,
+    "stock": "603993",
+    "trading_date": "2025-11-10T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-11T12:00:03",
+    "updated_at": "2025-11-11T12:00:03"
+  },
+  {
+    "id": 273,
+    "rule_id": 3000,
+    "stock": "002202",
+    "trading_date": "2025-11-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-12T12:05:56",
+    "updated_at": "2025-11-12T12:05:56"
+  },
+  {
+    "id": 274,
+    "rule_id": 3000,
+    "stock": "002600",
+    "trading_date": "2025-11-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-12T12:23:24",
+    "updated_at": "2025-11-12T12:23:24"
+  },
+  {
+    "id": 275,
+    "rule_id": 3000,
+    "stock": "600183",
+    "trading_date": "2025-11-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-12T12:29:10",
+    "updated_at": "2025-11-12T12:29:10"
+  },
+  {
+    "id": 276,
+    "rule_id": 3000,
+    "stock": "601138",
+    "trading_date": "2025-11-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-12T12:35:07",
+    "updated_at": "2025-11-12T12:35:07"
+  },
+  {
+    "id": 277,
+    "rule_id": 3002,
+    "stock": "002384",
+    "trading_date": "2025-11-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-12T12:43:10",
+    "updated_at": "2025-11-12T12:43:10"
+  },
+  {
+    "id": 278,
+    "rule_id": 3002,
+    "stock": "600183",
+    "trading_date": "2025-11-11T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-12T12:48:46",
+    "updated_at": "2025-11-12T12:48:46"
+  },
+  {
+    "id": 279,
+    "rule_id": 3000,
+    "stock": "000723",
+    "trading_date": "2025-11-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-13T12:18:24",
+    "updated_at": "2025-11-13T12:18:24"
+  },
+  {
+    "id": 280,
+    "rule_id": 3000,
+    "stock": "002709",
+    "trading_date": "2025-11-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-13T12:29:40",
+    "updated_at": "2025-11-13T12:29:40"
+  },
+  {
+    "id": 281,
+    "rule_id": 3000,
+    "stock": "003022",
+    "trading_date": "2025-11-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-13T12:35:17",
+    "updated_at": "2025-11-13T12:35:17"
+  },
+  {
+    "id": 282,
+    "rule_id": 3000,
+    "stock": "601689",
+    "trading_date": "2025-11-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-13T12:46:45",
+    "updated_at": "2025-11-13T12:46:45"
+  },
+  {
+    "id": 283,
+    "rule_id": 3002,
+    "stock": "003022",
+    "trading_date": "2025-11-12T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-13T12:57:39",
+    "updated_at": "2025-11-13T12:57:39"
+  },
+  {
+    "id": 284,
+    "rule_id": 3000,
+    "stock": "002459",
+    "trading_date": "2025-11-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-14T12:10:34",
+    "updated_at": "2025-11-14T12:10:34"
+  },
+  {
+    "id": 285,
+    "rule_id": 3000,
+    "stock": "601012",
+    "trading_date": "2025-11-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-14T12:23:04",
+    "updated_at": "2025-11-14T12:23:04"
+  },
+  {
+    "id": 286,
+    "rule_id": 3002,
+    "stock": "002709",
+    "trading_date": "2025-11-13T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-14T12:37:33",
+    "updated_at": "2025-11-14T12:37:33"
+  },
+  {
+    "id": 287,
+    "rule_id": 3000,
+    "stock": "002463",
+    "trading_date": "2025-11-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-17T12:54:00",
+    "updated_at": "2025-11-17T12:54:00"
+  },
+  {
+    "id": 288,
+    "rule_id": 3000,
+    "stock": "600183",
+    "trading_date": "2025-11-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-17T12:59:43",
+    "updated_at": "2025-11-17T12:59:43"
+  },
+  {
+    "id": 289,
+    "rule_id": 3000,
+    "stock": "600745",
+    "trading_date": "2025-11-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-17T13:05:21",
+    "updated_at": "2025-11-17T13:05:21"
+  },
+  {
+    "id": 290,
+    "rule_id": 3000,
+    "stock": "601877",
+    "trading_date": "2025-11-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-17T13:16:45",
+    "updated_at": "2025-11-17T13:16:45"
+  },
+  {
+    "id": 291,
+    "rule_id": 3000,
+    "stock": "601888",
+    "trading_date": "2025-11-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-17T13:22:22",
+    "updated_at": "2025-11-17T13:22:22"
+  },
+  {
+    "id": 292,
+    "rule_id": 3002,
+    "stock": "600183",
+    "trading_date": "2025-11-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-17T13:27:44",
+    "updated_at": "2025-11-17T13:27:44"
+  },
+  {
+    "id": 293,
+    "rule_id": 3002,
+    "stock": "600745",
+    "trading_date": "2025-11-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-17T13:30:20",
+    "updated_at": "2025-11-17T13:30:20"
+  },
+  {
+    "id": 294,
+    "rule_id": 3002,
+    "stock": "601877",
+    "trading_date": "2025-11-14T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-17T13:35:37",
+    "updated_at": "2025-11-17T13:35:37"
+  },
+  {
+    "id": 295,
+    "rule_id": 3000,
+    "stock": "002080",
+    "trading_date": "2025-11-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-18T11:45:02",
+    "updated_at": "2025-11-18T11:45:02"
+  },
+  {
+    "id": 296,
+    "rule_id": 3000,
+    "stock": "002240",
+    "trading_date": "2025-11-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-18T11:51:04",
+    "updated_at": "2025-11-18T11:51:04"
+  },
+  {
+    "id": 297,
+    "rule_id": 3000,
+    "stock": "002463",
+    "trading_date": "2025-11-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-18T11:56:48",
+    "updated_at": "2025-11-18T11:56:48"
+  },
+  {
+    "id": 298,
+    "rule_id": 3000,
+    "stock": "600745",
+    "trading_date": "2025-11-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-18T12:07:52",
+    "updated_at": "2025-11-18T12:07:52"
+  },
+  {
+    "id": 299,
+    "rule_id": 3000,
+    "stock": "601138",
+    "trading_date": "2025-11-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-18T12:13:19",
+    "updated_at": "2025-11-18T12:13:19"
+  },
+  {
+    "id": 300,
+    "rule_id": 3002,
+    "stock": "002240",
+    "trading_date": "2025-11-17T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-18T12:18:25",
+    "updated_at": "2025-11-18T12:18:25"
+  },
+  {
+    "id": 302,
+    "rule_id": 3001,
+    "stock": "600718",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T11:43:25",
+    "updated_at": "2025-11-20T11:43:25"
+  },
+  {
+    "id": 303,
+    "rule_id": 3002,
+    "stock": "002463",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T11:56:51",
+    "updated_at": "2025-11-20T11:56:51"
+  },
+  {
+    "id": 304,
+    "rule_id": 3002,
+    "stock": "002709",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T11:58:59",
+    "updated_at": "2025-11-20T11:58:59"
+  },
+  {
+    "id": 305,
+    "rule_id": 3002,
+    "stock": "600718",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T12:01:27",
+    "updated_at": "2025-11-20T12:01:27"
+  },
+  {
+    "id": 306,
+    "rule_id": 3000,
+    "stock": "002080",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T12:34:06",
+    "updated_at": "2025-11-20T12:34:06"
+  },
+  {
+    "id": 307,
+    "rule_id": 3000,
+    "stock": "002463",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T12:39:58",
+    "updated_at": "2025-11-20T12:39:58"
+  },
+  {
+    "id": 308,
+    "rule_id": 3000,
+    "stock": "002709",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T12:45:59",
+    "updated_at": "2025-11-20T12:45:59"
+  },
+  {
+    "id": 309,
+    "rule_id": 3000,
+    "stock": "600718",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T12:52:15",
+    "updated_at": "2025-11-20T12:52:15"
+  },
+  {
+    "id": 310,
+    "rule_id": 3000,
+    "stock": "601888",
+    "trading_date": "2025-11-19T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-20T12:57:30",
+    "updated_at": "2025-11-20T12:57:30"
+  },
+  {
+    "id": 311,
+    "rule_id": 3001,
+    "stock": "002409",
+    "trading_date": "2025-11-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-25T11:03:49",
+    "updated_at": "2025-11-25T11:03:49"
+  },
+  {
+    "id": 312,
+    "rule_id": 3001,
+    "stock": "601360",
+    "trading_date": "2025-11-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-25T11:17:44",
+    "updated_at": "2025-11-25T11:17:44"
+  },
+  {
+    "id": 313,
+    "rule_id": 3000,
+    "stock": "601238",
+    "trading_date": "2025-11-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-25T13:36:50",
+    "updated_at": "2025-11-25T13:36:50"
+  },
+  {
+    "id": 314,
+    "rule_id": 3000,
+    "stock": "601360",
+    "trading_date": "2025-11-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-25T13:42:41",
+    "updated_at": "2025-11-25T13:42:41"
+  },
+  {
+    "id": 315,
+    "rule_id": 3000,
+    "stock": "603659",
+    "trading_date": "2025-11-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-25T13:48:54",
+    "updated_at": "2025-11-25T13:48:54"
+  },
+  {
+    "id": 316,
+    "rule_id": 3002,
+    "stock": "002153",
+    "trading_date": "2025-11-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-25T13:53:26",
+    "updated_at": "2025-11-25T13:53:26"
+  },
+  {
+    "id": 317,
+    "rule_id": 3002,
+    "stock": "601360",
+    "trading_date": "2025-11-21T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-25T14:02:06",
+    "updated_at": "2025-11-25T14:02:06"
+  },
+  {
+    "id": 318,
+    "rule_id": 3000,
+    "stock": "600271",
+    "trading_date": "2025-11-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-26T11:33:55",
+    "updated_at": "2025-11-26T11:33:55"
+  },
+  {
+    "id": 319,
+    "rule_id": 3000,
+    "stock": "601360",
+    "trading_date": "2025-11-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-26T11:39:21",
+    "updated_at": "2025-11-26T11:39:21"
+  },
+  {
+    "id": 320,
+    "rule_id": 3002,
+    "stock": "600271",
+    "trading_date": "2025-11-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-26T11:44:58",
+    "updated_at": "2025-11-26T11:44:58"
+  },
+  {
+    "id": 321,
+    "rule_id": 3002,
+    "stock": "601360",
+    "trading_date": "2025-11-25T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-26T11:47:20",
+    "updated_at": "2025-11-26T11:47:20"
+  },
+  {
+    "id": 322,
+    "rule_id": 3000,
+    "stock": "002756",
+    "trading_date": "2025-11-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-27T11:39:21",
+    "updated_at": "2025-11-27T11:39:21"
+  },
+  {
+    "id": 323,
+    "rule_id": 3000,
+    "stock": "002812",
+    "trading_date": "2025-11-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-27T11:45:17",
+    "updated_at": "2025-11-27T11:45:17"
+  },
+  {
+    "id": 324,
+    "rule_id": 3002,
+    "stock": "002756",
+    "trading_date": "2025-11-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-27T11:50:12",
+    "updated_at": "2025-11-27T11:50:12"
+  },
+  {
+    "id": 325,
+    "rule_id": 3002,
+    "stock": "002812",
+    "trading_date": "2025-11-26T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-11-27T11:52:35",
+    "updated_at": "2025-11-27T11:52:35"
+  },
+  {
+    "id": 326,
+    "rule_id": 3000,
+    "stock": "002240",
+    "trading_date": "2025-11-28T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-12-01T11:46:14",
+    "updated_at": "2025-12-01T11:46:14"
+  },
+  {
+    "id": 327,
+    "rule_id": 3002,
+    "stock": "002292",
+    "trading_date": "2025-11-28T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-12-01T12:10:16",
+    "updated_at": "2025-12-01T12:10:16"
+  },
+  {
+    "id": 328,
+    "rule_id": 3002,
+    "stock": "002353",
+    "trading_date": "2025-11-28T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-12-01T12:12:43",
+    "updated_at": "2025-12-01T12:12:43"
+  },
+  {
+    "id": 329,
+    "rule_id": 3000,
+    "stock": "002353",
+    "trading_date": "2025-12-02T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-12-03T12:30:09",
+    "updated_at": "2025-12-03T12:30:09"
+  },
+  {
+    "id": 330,
+    "rule_id": 3002,
+    "stock": "002240",
+    "trading_date": "2025-12-02T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2025-12-03T12:41:03",
+    "updated_at": "2025-12-03T12:41:03"
+  },
+  {
+    "id": 335,
+    "rule_id": 3006,
+    "stock": "000001",
+    "trading_date": "2026-02-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2026-02-07T15:53:03",
+    "updated_at": "2026-02-07T17:52:49"
+  },
+  {
+    "id": 336,
+    "rule_id": 3001,
+    "stock": "000001",
+    "trading_date": "2026-02-07T00:00:00",
+    "trading_type": "not_indicating",
+    "trading_amount": 0.0,
+    "created_at": "2026-02-07T15:53:09",
+    "updated_at": "2026-02-07T17:02:03"
+  },
+  {
+    "id": 337,
+    "rule_id": 3001,
+    "stock": "600519",
+    "trading_date": "2026-02-07T00:00:00",
+    "trading_type": "not_indicating",
+    "trading_amount": 0.0,
+    "created_at": "2026-02-07T15:54:07",
+    "updated_at": "2026-02-07T16:46:23"
+  },
+  {
+    "id": 338,
+    "rule_id": 3006,
+    "stock": "600519",
+    "trading_date": "2026-02-07T00:00:00",
+    "trading_type": "indicating",
+    "trading_amount": 0.0,
+    "created_at": "2026-02-07T15:54:09",
+    "updated_at": "2026-02-07T16:58:12"
+  },
+  {
+    "id": 339,
+    "rule_id": 3002,
+    "stock": "000001",
+    "trading_date": "2026-02-07T00:00:00",
+    "trading_type": "not_indicating",
+    "trading_amount": 0.0,
+    "created_at": "2026-02-07T18:14:26",
+    "updated_at": "2026-02-07T18:14:26"
+  },
+  {
+    "id": 340,
+    "rule_id": 3000,
+    "stock": "000001",
+    "trading_date": "2026-02-07T00:00:00",
+    "trading_type": "not_indicating",
+    "trading_amount": 0.0,
+    "created_at": "2026-02-07T18:28:05",
+    "updated_at": "2026-02-07T18:28:05"
+  },
+  {
+    "id": 341,
+    "rule_id": 3002,
+    "stock": "600519",
+    "trading_date": "2026-02-07T00:00:00",
+    "trading_type": "not_indicating",
+    "trading_amount": 0.0,
+    "created_at": "2026-02-07T18:33:23",
+    "updated_at": "2026-02-07T18:34:38"
+  }
+]
