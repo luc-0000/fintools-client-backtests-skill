@@ -421,21 +421,21 @@ def build_reexec_args(args, work_dir, auto_created):
 
 
 async def run_streaming_deep_research(stock_code, agent_url, token):
-    from agents_client_bk.streaming.dr_agent_client_stream import run_dr_agent
+    from agents_client.streaming.dr_agent_client_stream import run_dr_agent
 
-    success = await run_dr_agent(stock_code, agent_url, token)
-    return success
+    result = await run_dr_agent(stock_code, agent_url, token)
+    return result
 
 
 async def run_streaming_trading(stock_code, agent_url, token):
-    from agents_client_bk.streaming.trading_agent_client_stream import run_trading_agent
+    from agents_client.streaming.trading_agent_client_stream import run_trading_agent
 
-    success = await run_trading_agent(stock_code, agent_url, token)
-    return success
+    result = await run_trading_agent(stock_code, agent_url, token)
+    return result
 
 
 async def run_polling_trading(stock_code, agent_url, token, task_id, report_output_dir=None):
-    from agents_client_bk.db_polling.trading_agent_client_db import main as run_main
+    from agents_client.db_polling.trading_agent_client_db import main as run_main
 
     result = await run_main(
         agent_url,
@@ -448,7 +448,7 @@ async def run_polling_trading(stock_code, agent_url, token, task_id, report_outp
 
 
 async def run_polling_deep_research(stock_code, agent_url, token, task_id, report_output_dir=None):
-    from agents_client_bk.db_polling.dr_agent_client_db import main as run_main
+    from agents_client.db_polling.dr_agent_client_db import main as run_main
 
     result = await run_main(
         agent_url,
@@ -504,12 +504,14 @@ async def run_inside_env(args):
             token = resolve_access_token(args)
             if args.mode == "streaming" and args.agent_type == "deep_research":
                 announce_status("正在启动 Deep Research Agent（streaming）")
-                success = await run_streaming_deep_research(args.stock_code, args.agent_url, token)
+                result = await run_streaming_deep_research(args.stock_code, args.agent_url, token)
+                success = result.get("success", False) if isinstance(result, dict) else bool(result)
                 if success:
                     report_path = find_downloaded_report(reports_dir)
             elif args.mode == "streaming" and args.agent_type == "trading":
                 announce_status("正在启动 Trading Agent（streaming）")
-                success = await run_streaming_trading(args.stock_code, args.agent_url, token)
+                result = await run_streaming_trading(args.stock_code, args.agent_url, token)
+                success = result.get("success", False) if isinstance(result, dict) else bool(result)
                 if success:
                     report_path = find_downloaded_report(reports_dir)
             elif args.mode == "polling" and args.agent_type == "trading":
@@ -573,6 +575,80 @@ async def run_inside_env(args):
         "success": bool(success),
         "error": error,
     }
+    
+    # SSOT: Persistent raw result into trading_agent_runs.db
+    if args.agent_type == "trading" and result and isinstance(result, dict):
+        try:
+            import sqlite3
+            db_path = runtime_root_dir() / "database" / "trading_agent_runs.db"
+            db_path.parent.mkdir(parents=True, exist_ok=True)
+            
+            # Extract action safely
+            action = "unknown"
+            if args.mode == "streaming":
+                action = result.get("result", {}).get("action", "unknown")
+            elif args.mode == "polling":
+                inner = result.get("result", {})
+                if isinstance(inner, str):
+                    try:
+                        inner = json.loads(inner)
+                    except Exception:
+                        inner = {}
+                action = inner.get("action", "unknown") if isinstance(inner, dict) else "unknown"
+    
+            action = str(action).lower()
+            run_id = work_dir.name
+    
+            conn = sqlite3.connect(str(db_path))
+            try:
+                conn.execute(
+                    """
+                    CREATE TABLE IF NOT EXISTS trading_agent_runs (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        run_id TEXT NOT NULL,
+                        stock_code TEXT NOT NULL,
+                        action TEXT NOT NULL,
+                        created_at TEXT NOT NULL,
+                        updated_at TEXT NOT NULL,
+                        raw_result TEXT,
+                        mode TEXT NOT NULL,
+                        agent_id TEXT,
+                        agent_name TEXT
+                    )
+                    """
+                )
+                
+                now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                # Add columns if migrating
+                try:
+                    conn.execute("ALTER TABLE trading_agent_runs ADD COLUMN agent_id TEXT")
+                    conn.execute("ALTER TABLE trading_agent_runs ADD COLUMN agent_name TEXT")
+                except sqlite3.OperationalError:
+                    pass
+                
+                raw_json = json.dumps(result.get("result", {}), ensure_ascii=False)
+                
+                # Use INSERT OR REPLACE or handle dupes
+                conn.execute(
+                    """
+                    INSERT INTO trading_agent_runs (
+                        run_id, stock_code, action, created_at, updated_at, raw_result, mode, agent_id, agent_name
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """,
+                    (
+                        run_id, args.stock_code, action, now_str, now_str, raw_json, args.mode, 
+                        summary.get("agent_id"), summary.get("agent_name")
+                    )
+                )
+                conn.commit()
+                announce_status(f"SSOT: Recorded action '{action}' into trading_agent_runs.db")
+            except Exception as e:
+                announce_error(f"Failed to record to DB: {e}")
+            finally:
+                conn.close()
+        except Exception as e:
+            pass
+
     announce_status("正在写入 summary.json")
     summary_path = write_summary(work_dir, summary)
     announce_result("Summary written to: {0}".format(summary_path))

@@ -77,7 +77,24 @@ class DatabaseAgentClient:
         async with httpx.AsyncClient(timeout=self.timeout) as client:
             response = await client.get(f"{self.task_url}/tasks/{task_id}", headers=self.headers)
             response.raise_for_status()
-            return response.json()
+            task = response.json()
+            
+            # --- PATCH: Normalize 'action' to lowercase to avoid DB constraint failures ---
+            inner_res = task.get("result")
+            if isinstance(inner_res, dict) and "action" in inner_res and isinstance(inner_res["action"], str):
+                inner_res["action"] = inner_res["action"].lower()
+            elif isinstance(inner_res, str) and inner_res.strip().startswith("{"):
+                try:
+                    import json
+                    parsed = json.loads(inner_res)
+                    if isinstance(parsed, dict) and "action" in parsed and isinstance(parsed["action"], str):
+                        parsed["action"] = parsed["action"].lower()
+                        task["result"] = json.dumps(parsed, ensure_ascii=False)
+                except Exception:
+                    pass
+            # ----------------------------------------------------------------------------
+            
+            return task
 
     def _print_task_status(self, task: dict[str, Any], poll_count: int) -> None:
         print(f"\n[轮询 #{poll_count}] {datetime.now().strftime('%H:%M:%S')}")

@@ -19,7 +19,7 @@ class TradingAgentClientStream(StreamingStockAgentClient):
         super().__init__(agent_url=agent_url, a2a_token=a2a_token, user_message="test request")
 
 
-async def run_trading_agent(stock_code: str, agent_url: str, a2a_token: str | None = None) -> bool:
+async def run_trading_agent(stock_code: str, agent_url: str, a2a_token: str | None = None) -> dict:
     return await run_stock_agent_client(TradingAgentClientStream, "Trading Agent", stock_code, agent_url, a2a_token)
 
 
