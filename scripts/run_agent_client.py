@@ -491,6 +491,7 @@ async def run_inside_env(args):
     error = None
     success = False
     report_path = None
+    result = None
     original_stdout = sys.stdout
     original_stderr = sys.stderr
     with run_log.open("a", encoding="utf-8") as log_handle:
