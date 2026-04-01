@@ -584,19 +584,8 @@ async def run_inside_env(args):
             db_path = runtime_root_dir() / "database" / "trading_agent_runs.db"
             db_path.parent.mkdir(parents=True, exist_ok=True)
             
-            # Extract action safely
-            action = "unknown"
-            if args.mode == "streaming":
-                action = result.get("result", {}).get("action", "unknown")
-            elif args.mode == "polling":
-                inner = result.get("result", {})
-                if isinstance(inner, str):
-                    try:
-                        inner = json.loads(inner)
-                    except Exception:
-                        inner = {}
-                action = inner.get("action", "unknown") if isinstance(inner, dict) else "unknown"
-    
+            # Extract action safely - 统一处理streaming和polling格式
+            action = result.get("result", {}).get("action", "unknown")
             action = str(action).lower()
             run_id = work_dir.name
     

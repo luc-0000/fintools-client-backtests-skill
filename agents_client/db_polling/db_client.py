@@ -147,6 +147,11 @@ class DatabaseAgentClient:
             self._print_task_status(task, poll_count)
 
             if task.get("status") in {"completed", "failed"}:
+                # 标准化result格式，与streaming模式对齐
+                if isinstance(task.get("result"), str):
+                    raw_result = task.get("result", "")
+                    # 将 "BUY"/"SELL"/"HOLD" 等字符串转换为统一格式
+                    task["result"] = {"action": raw_result.lower()}
                 self._print_final_result(task)
                 return task
 
@@ -155,6 +160,9 @@ class DatabaseAgentClient:
                 print(f"\n⚠ 警告: Server 心跳超时 ({heartbeat_age:.0f}s > {self.heartbeat_timeout}s)")
                 task["status"] = "timeout"
                 task["error"] = f"Server heartbeat timeout: {heartbeat_age:.0f}s"
+                # 标准化result格式（即使超时也尝试统一）
+                if isinstance(task.get("result"), str):
+                    task["result"] = {"action": task.get("result", "unknown").lower()}
                 self._print_final_result(task)
                 return task
 
@@ -166,6 +174,9 @@ class DatabaseAgentClient:
         task = await self.get_task_status(task_id)
         task["status"] = "timeout"
         task["error"] = f"Max wait time exceeded: {self.max_wait}s"
+        # 标准化result格式（即使超时也尝试统一）
+        if isinstance(task.get("result"), str):
+            task["result"] = {"action": task.get("result", "unknown").lower()}
         self._print_final_result(task)
         return task
 
