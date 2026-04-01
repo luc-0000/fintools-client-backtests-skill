@@ -133,17 +133,9 @@ async def stream_remote_agent_logs(db, rule_id: int, stock_code: str) -> AsyncGe
         action = extract_trading_action(result)
         is_indicating = action == "buy"
 
-        # SSOT Pipeline: trigger downstream sync from the automatically populated trading_agent_runs.db
-        try:
-            from end_points.common.utils.trading_agent_sync import sync_trading_agent_into_backtests
-            from scripts.run_agent_client import runtime_root_dir, default_runs_parent_dir
-            source_db_path = runtime_root_dir() / "database" / "trading_agent_runs.db"
-            runs_dir = default_runs_parent_dir()
-            
-            sync_result = sync_trading_agent_into_backtests(db, source_db_path=source_db_path, runs_dir=runs_dir)
-            logger.info("Auto-synced backtests UI over SSOT: inserted=%s updated=%s", sync_result.get("inserted"), sync_result.get("updated"))
-        except Exception as e:
-            logger.error(f"Failed to auto-sync backtests: {e}")
+        # 精确更新前端 UI 强绑定的 rule_id
+        indicating = Trade.indicating if is_indicating else Trade.not_indicating
+        update_rule_trading(db, rule_id, indicating, stock_code, datetime.now().date())
 
 
         result_msg = f"Decision: {'INDICATING' if is_indicating else 'NOT INDICATING'}"
